@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign_In</title>
+  <link rel="stylesheet" href="css/login.css">
+  <style>
+    body {      
+      background:url('images/login.jpg') left top no-repeat fixed;  
+      background-size:cover;  
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>LOGIN<hr width="300px"></h1>
+    <form>   
+        <ul>
+          <li>
+            <label for="uid">ID</label><br>
+            <input type="text" id="uid" autofocus placeholder="아이디를 입력하세요"> 
+          </li>
+         
+          <li>
+            <label for="pwd1">PASSWORD</label><br>
+            <input type="password" id="pwd1" placeholder="비밀번호를 입력하세요"> 
+          </li>        
+        </ul>
+        
+      <div id="buttons">
+        <input id ="login" type="submit" value="Sign IN">
+        <input id ="sign" type="submit" value="Sign Up"><br><hr width="460px">
+        <input id ="findid" type="submit" value="아이디찾기">
+        <input id ="findpw" type="submit" value="비밀번호찾기">
+      </div>
+      
+    </form>
+  </div>           
+ </body>
+</html>
+
