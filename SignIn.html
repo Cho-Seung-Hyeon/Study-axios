@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>로그인</title>
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/signin.css">
   <script src="http://code.jquery.com/jquery-latest.js"></script> 
-  <script defer src="js/login.js"></script>
+  <script defer src="js/signin.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <style>
     body {
@@ -20,23 +20,22 @@
     <form>
         <ul>
           <li>
-            <label>ID</label><br>
-            <input type="text" id="userId" autofocus placeholder="아이디를 입력하세요" required> 
+            <label for="id">ID</label><br>
+            <input type="text" id="id" autofocus placeholder="아이디를 입력하세요"> 
           </li>
          
           <li>
-            <label for="pwd1">PASSWORD</label><br>
-            <input type="password" id="pwd" placeholder="비밀번호를 입력하세요" required> 
+            <label for="pwd">PASSWORD</label><br>
+            <input type="password" id="pwd" placeholder="비밀번호를 입력하세요"> 
           </li>        
         </ul>
         
       <div id="buttons">
-        <input id ="login" type="submit" onclick="f_loginCheck();" value="Sign IN">
-        <input id ="sign" type="submit" value="Sign Up"><br><hr width="460px">
-        <input id ="findid" type="submit" value="아이디찾기">
-        <input id ="findpw" type="submit" value="비밀번호찾기">
+        <a id ="login" onclick="f_loginCheck();">Sign IN</a>
+        <a id ="signup" href="SingUp.html" target="_blank">Sign UP</a><br><br><br><hr><br><br>
+        <a id ="findid" href="findid.html" target="_blank">아이디찾기</a>
+        <a id ="findpw" href="findid.html" target="_blank">비밀번호 찾기</a>
       </div>
-      
     </form>
   </div>           
  </body>

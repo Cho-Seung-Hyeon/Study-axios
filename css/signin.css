@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  float: left;
+}
+form {
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  margin-left: 300px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgba(137, 43, 226, 0);
+  text-align: center;
+  width: 300px;
+  margin: 200px 200px 0 400px;
+}
+
+
+
+ul {
+  padding: 90px 0 0 0;
+  margin-top: 20px;
+  list-style: none;
+}
+li {
+  margin: 10px;
+}
+
+label {
+  font-weight: 700;
+}
+
+form input[type=text] {
+  background-color: rgb(255, 255, 255);
+  margin: 10px 0 20px 0;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 30px 30px 30px 30px;
+  border: solid 2px;
+}
+
+form input[type=password] {
+  background-color: #fff;
+  margin: 8px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 30px 30px 30px 30px;
+  border: solid 2px;
+  margin-bottom: 20px;
+}
+
+#buttons {
+  margin: 20px;
+}
+
+#login {
+  text-decoration-line: none;
+  background-color: rgb(23, 92, 156);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;  margin-right: 10px;
+}
+#signup {
+  text-decoration-line: none;
+  background-color: rgb(23, 92, 156);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#findid {
+  text-decoration-line: none;
+  background-color: rgba(218, 221, 224, 0.376);
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+}
+#findpw {
+  text-decoration-line: none;
+  background-color: rgba(218, 221, 224, 0.376);
+  padding: 20px;
+
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 400;
+}

@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>회원 가입</title>
     <link rel="stylesheet" href="css/signup.css">
+    <script defer src="js/signup.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <style>
       body {      
       background:url('images/signup.jpg') left top no-repeat fixed;  
@@ -17,28 +20,30 @@
         <legend>회원가입</legend>
           <ul>
             <li>
-              <label for="user-name">Name</label>
-              <input type="text" id="user-name"  required> 
+              <label for="name">Name</label>
+              <input type="text" id="name"  placeholder="이름을 입력해주세요" required autofocus> 
+              <div id="nameError" class="error"></div>
             </li>
             <li>
               <label for="nickname">Nickname</label>
-              <input type="text" id="nickname"  required> 
+              <input type="text" id="nickname"  placeholder="별명을 입력해주세요" required> 
             </li>
             <li>
-              <label for="userid">ID</label>
-              <input id="userid" name="userid" type="text" required autofocus>
+              <label for="id">ID</label>
+              <input type="text" id="id" name="id"   placeholder="아이디를 입력해주세요"required >
             </li>
             <li>
               <label for="pwd1">Password</label>
-              <input id="pwd1" name="pwd1" type="password"  required>
+              <input type="password" id="pwd1" name="pwd1"  placeholder="6자리이상으로 입력해주세요" required>
             </li>
             <li>
               <label for="pwd2">Verifypassword</label>
-              <input id="pwd2" name="pwd2" type="password" required>
+              <input type="password" id="pwd2" name="pwd2"  placeholder="비밀번호를 다시 입력해주세요" required>
             </li>  
             <li>
-              <label for="umail">E-mail</label>
-              <input type="email" id="umail"  paceholder="abcdefg@12345.com" required> 
+              <label for="email">E-mail</label>
+              <input type="email" id="email"   placeholder="이메일을 입력해주세요">
+              <div id="emailError" class="error"></div>
             </li>
             
             <li>
@@ -46,11 +51,11 @@
               <input type="date" id="birth">
             </li>
           </ul>
-          
+          <div id="buttons">
+            <input id ="login" type="submit" onclick="f_signupCheck();" value="Sign IN">
+          </div>
         </form>
-        <div id="buttons">
-          <input id ="login" type="submit" value="Sign IN">
-        </div>
+        
     </div>           
   </body>
 </html>

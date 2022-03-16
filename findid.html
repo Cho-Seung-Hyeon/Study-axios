@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>아이디 찾기</title>
+  <link rel="stylesheet" href="css/findId.css">
+  <!--script src="http://code.jquery.com/jquery-latest.js"></script--> 
+  <script defer src="js/findid.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <style>
+    body {
+     background-color: rgb(206, 226, 231);
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>아이디 찾기<hr width="300px"></h1>
+    <form>
+        <ul>
+          <li>
+            <label>NAME</label><br>
+            <input type="text" id="userId" autofocus placeholder="이름을 입력하세요"> 
+          </li>
+         
+          <li>
+            <label for="mail">email</label><br>
+            <input type="email" id="mail" placeholder="메일을 입력하세요"> 
+          </li>        
+        </ul>
+        
+      <div id="buttons">
+        <input id ="findid" type="submit" value="Find ID"><a href=""></a><br><hr width="370px">
+        <input id ="findpw" type="submit" value="비밀번호찾기">
+      </div>
+    </form>
+  </div>           
+ </body>
+</html>
+
