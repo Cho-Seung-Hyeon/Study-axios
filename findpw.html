@@ -2,36 +2,36 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>아이디 찾기</title>
+  <title>비밀번호 찾기</title>
   <link rel="stylesheet" href="css/findpw.css">
   <!--script src="http://code.jquery.com/jquery-latest.js"></script--> 
   <script defer src="js/findpw.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <style>
     body {
-     background-color: rgb(206, 226, 231);
+     background-color: rgb(128, 147, 151);
     }
   </style>
 </head>
 <body>
   <div id="container">
-    <h1>아이디 찾기<hr width="300px"></h1>
+    <h1>비밀번호 찾기<hr width="300px"></h1>
     <form>
         <ul>
           <li>
-            <label>NAME</label><br>
-            <input type="text" id="userId" autofocus placeholder="이름을 입력하세요"> 
+            <label for="id">ID</label><br>
+            <input type="text" id="id" autofocus placeholder="아이디를 입력하세요"> 
           </li>
          
           <li>
-            <label for="mail">email</label><br>
+            <label for="mail">E-mail</label><br>
             <input type="email" id="mail" placeholder="메일을 입력하세요"> 
           </li>        
         </ul>
         
       <div id="buttons">
-        <input id ="findid" type="submit" value="Find ID"><a href=""></a><br><hr width="370px">
-        <input id ="findpw" type="submit" value="비밀번호찾기">
+        <input id ="findpw" type="submit" value="Find Password"><a href=""></a><br><hr width="370px">
+        <input id ="page" type="submit" value="Main Page">
       </div>
     </form>
   </div>           

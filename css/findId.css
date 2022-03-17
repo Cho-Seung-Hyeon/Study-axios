@@ -49,6 +49,7 @@ form input[type=text] {
 form input[type=email] {
   background-color: #fff;
   margin: 8px;
+  margin-bottom: 25px;
   width: 300px;
   height: 20px;
   padding: 10px;
@@ -62,7 +63,7 @@ form input[type=email] {
 
 #findid{
   background-color: rgb(23, 92, 156);
-  margin: 8px;
+  margin: 20px;
   width: 100px;
   height: 60px;
   padding: 10px;

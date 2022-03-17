@@ -60,10 +60,10 @@ form input[type=email] {
   margin: 10px;
 }
 
-#findid{
+#findpw{
   background-color: rgb(23, 92, 156);
   margin: 8px;
-  width: 100px;
+  width: 160px;
   height: 60px;
   padding: 10px;
   border-radius: 10px;
@@ -74,7 +74,7 @@ form input[type=email] {
   font-weight: 400;
 }
 
-#findpw {
+#page {
   background-color: rgba(218, 221, 224, 0.376);
   margin: 8px;
   width: 200px;
