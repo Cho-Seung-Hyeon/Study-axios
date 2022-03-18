@@ -4,18 +4,12 @@
   <meta charset="UTF-8">
   <title>비밀번호 찾기</title>
   <link rel="stylesheet" href="css/findpw.css">
-  <!--script src="http://code.jquery.com/jquery-latest.js"></script--> 
   <script defer src="js/findpw.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <style>
-    body {
-     background-color: rgb(128, 147, 151);
-    }
-  </style>
 </head>
 <body>
   <div id="container">
-    <h1>비밀번호 찾기<hr width="300px"></h1>
+    <h1>비밀번호 찾기<hr width="300px" color="white"></h1>
     <form>
         <ul>
           <li>
@@ -30,8 +24,8 @@
         </ul>
         
       <div id="buttons">
-        <input id ="findpw" type="submit" value="Find Password"><a href=""></a><br><hr width="370px">
-        <input id ="page" type="submit" value="Main Page">
+        <a id ="findpw" onclick="f_loginCheck();" style="cursor:pointer">Find Password</a><hr width="370px"><br><br>
+        <a id ="page" href="SignIn.html"  style="cursor:pointer">LOGIN</a>
       </div>
     </form>
   </div>           

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+* {
+  margin:0;   /* 마진 리셋 */
+  padding:0;   /* 패딩 리셋 */
+  box-sizing: border-box;   /* 박스 영역은 테두리까지 */ 
+}
+
+a {
+  text-decoration:none;  /* 텍스트 링크 밑줄 없애기 */ 
+}
+
+ul {
+  list-style: none;
+}
+
+#container {
+  margin:0 auto;  /* 화면 중앙에 배치 */
+  background-color: #1a1a4000;
+}
+/*******************************************/
+
+#header {
+  width: 1900px;
+  background-color: #e0dce900;
+  height: 100px;
+  margin: 0 auto;
+}
+#logo{ 
+  float:left;  
+  width:auto;   /*  너비 */
+  height:40px;   /* 높이 */
+  background-color: #27008200;
+  margin: 30px 50px;
+}
+
+#logo h1 {
+  background-color: rgba(0, 255, 255, 0);
+  font-family: 'Jua', sans-serif;   /*외부 폰트*/
+  font-weight: 100;   /*글자 굵기*/
+  font-size: 50px;   /*글자 크기*/
+  color: orange;   /*글자색*/
+}

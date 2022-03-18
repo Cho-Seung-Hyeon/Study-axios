@@ -12,13 +12,13 @@ function f_loginCheck() {
         .then(res => {
           console.log(res.data)
           if(res.data == 0) {
-            alert('이메일을 인증해주세요.');
+            alert('가입된 이메일이 없습니다.');
           }
-          else if(res.data == 1) {
-            window.open('mainpage.html')
+          else if(res.data == 3) {
+            alert('가입하신 아이디가 없습니다.');
           }
           else 
-            alert('가입하지 않은 아이디이거나 잘못된 비밀번호입니다.');
+            alert('가입하신 이메일로 임시 비밀번호가 발급되었습니다.');
           
         })
   

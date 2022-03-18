@@ -68,7 +68,6 @@ form input[type=email] {
   height: 60px;
   padding: 10px;
   border-radius: 10px;
-  border: solid 2px;
   text-align: center;
   color: white;
   font-size: 19px;
@@ -76,8 +75,8 @@ form input[type=email] {
 }
 
 #findpw {
-  background-color: rgba(218, 221, 224, 0.376);
-  margin: 8px;
+  text-decoration-line: none;
+  background-color: rgba(218, 221, 224, 0.603);
   width: 200px;
   padding: 10px;
   border-radius: 10px;
